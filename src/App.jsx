@@ -5,6 +5,7 @@ import Food from './components/Food';
 import Card from './components/Card';
 import Button from './components/Button';
 import Student from './components/Student';
+import UserGreeting from './components/UserGreeting';
 function App() {
   return(
     <>
@@ -16,6 +17,7 @@ function App() {
       <Student name= "Ram" age={22} isStudent={false}></Student>
       <Student name= "Anuj" age={21} isStudent={true}></Student>
       <Student></Student>
+      <UserGreeting isLoggedIn = {true} username = "Anuj"></UserGreeting>
       <Footer></Footer>
     </>
   );
