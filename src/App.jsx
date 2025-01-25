@@ -6,6 +6,8 @@ import Card from './components/Card';
 import Button from './components/Button';
 import Student from './components/Student';
 import UserGreeting from './components/UserGreeting';
+import ProductCard from './components/ProductCard';
+import MyImg from './assets/anujpandey.jpg';
 function App() {
   return(
     <>
@@ -17,6 +19,7 @@ function App() {
       <Student name= "Ram" age={22} isStudent={false}></Student>
       <Student name= "Anuj" age={21} isStudent={true}></Student>
       <Student></Student>
+      <ProductCard productName= "Apple" productPrice= "$5 " productImage = {MyImg} productDescription = "lorem"></ProductCard>
       <UserGreeting isLoggedIn = {true} username = "Anuj"></UserGreeting>
       <Footer></Footer>
     </>
